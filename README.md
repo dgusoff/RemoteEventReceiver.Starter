@@ -5,7 +5,7 @@ This is a minimal ASP.NET web application configured for use as a SharePoint Rem
 
 # Authentication back to SharePoint
 
-If your Remote Event Receiver needs to call back into SharePoint, you'll need to obtain a ClientContext object.  This project provides two methods for doing so>
+If your Remote Event Receiver needs to call back into SharePoint, you'll need to obtain a ClientContext object.  This project provides two methods for doing so:
 
 ## App Only Context.
 
