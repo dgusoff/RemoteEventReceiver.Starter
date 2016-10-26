@@ -8,10 +8,12 @@ This is a minimal ASP.NET web application configured for use as a SharePoint Rem
 If your Remote Event Receiver needs to call back into SharePoint, you'll need to obtain a ClientContext object.  This project provides two methods for doing so>
 
 ## App Only Context.
+
 to do. fill this out.
 
 ## Authenticated Credentials. 
 If you do not use an app, the only other way to obtain a context is to use stored credentials. In this case the event reciever will have the permissions associated with those credentials.  To use stored credentials, create and populate these App Settings on the web site's configuration: AuthenticatedUserName and AutheticatedUserPassword.
+
 to do:  code example
 
 # attaching the event receiver to SharePoint
