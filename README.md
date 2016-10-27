@@ -11,6 +11,14 @@ If your Remote Event Receiver needs to call back into SharePoint, you'll need to
 
 to do. fill this out.
 
+```C#
+//if using App Only Context, use this method, and make sure ClientId and ClientSecret are specified in AppSettings
+ using(ClientContext context = Helpers.GetAppOnlyContext(siteUrl))
+{
+    //do stuff
+}
+```
+
 ## Authenticated Credentials. 
 If you do not use an app, the only other way to obtain a context is to use stored credentials. In this case the event reciever will have the permissions associated with those credentials.  To use stored credentials, create and populate these App Settings on the web site's configuration: AuthenticatedUserName and AutheticatedUserPassword.
 
