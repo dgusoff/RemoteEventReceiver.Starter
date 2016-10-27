@@ -9,7 +9,6 @@ If your Remote Event Receiver needs to call back into SharePoint, you'll need to
 
 ## App Only Context.
 
-to do. fill this out.
 
 ```C#
 //if using App Only Context, use this method, and make sure ClientId and ClientSecret are specified in AppSettings
