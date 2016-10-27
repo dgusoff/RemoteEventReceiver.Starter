@@ -33,7 +33,10 @@ using (ClientContext context = Helpers.GetAuthenticatedContext(siteUrl))
 # attaching the event receiver to SharePoint
 The easiest way to attach this event receiver to SharePoint is to use the PnP PowerShell Cmdlet for this:
 
+```powershell
+
 Add-SPOEventReceiver -List ListName -Url http://websitename.azurewebsites.net/ItemAdded.svc -Name "MyEventReceiver" -E
 ventReceiverType ItemAdded
+```
 
 You can, in theory, use this project for any type of Remote Event Receiver in SharePoint, but this has only been tested using List Item Events. Your mileage may vary.
