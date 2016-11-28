@@ -1,3 +1,5 @@
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
+
 # RemoteEventReceiver.Starter
 A minimal starter project for remote event receiver in Office 365
 
