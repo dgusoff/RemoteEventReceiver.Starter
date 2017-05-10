@@ -31,6 +31,9 @@ using (ClientContext context = Helpers.GetAuthenticatedContext(siteUrl))
 }
 ```
 
+## Current User Context. 
+If you need to use the security context of the current user, this solution does not support that. I'll gladly accept contributions from anyone who wishes to attempt to implement this.
+
 # attaching the event receiver to SharePoint
 The easiest way to attach this event receiver to SharePoint is to use the PnP PowerShell Cmdlet for this:
 
