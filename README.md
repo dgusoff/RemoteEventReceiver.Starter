@@ -1,3 +1,9 @@
+## edit
+
+This was written back in 2017. Today, I would not use this approach to Remote Event Receivers. I would use Sergei Sergeev's approach which he outlines [here](https://spblog.net/post/2021/09/14/how-to-use-remote-event-receivers-with-net-core-or-net-5-and-pnp-framework).
+
+
+
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
 # RemoteEventReceiver.Starter
